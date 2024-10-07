@@ -26,7 +26,3 @@ The Vigenère cipher is a polyalphabetic substitution cipher that rotates throug
 ### Con:
 
 The primary weakness of the Vigenère cipher is the repeating nature of its key. 
-
-### Fun Fact:
-
-The Vigenère cipher was a substitution cipher that was effective at protecting information for nearly three centuries!! -- and was finally defeated in 1854 by English cryptographer Charles Babbage.

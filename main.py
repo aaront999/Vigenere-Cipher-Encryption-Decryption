@@ -1,8 +1,8 @@
 # Vigenère cipher Encryption/Decryption Project 
 
 
-text = "Ma'am, I just work here."
-secret_key = "K3Yp@ssWOrd$9"
+text = input("Enter a message to encrypt: ")
+secret_key = input("Enter your secret key: ")
 
 
 def VigenereCypher(message, key, direction=1):
@@ -25,21 +25,21 @@ def VigenereCypher(message, key, direction=1):
             if is_upper:
                 encrypt_char = encrypt_char.upper()      # Preserve original case if there is a capital letter
             result += encrypt_char
-    
+
     return result
 
 
 # Defining encrypt/decrypt function for better readability
 def encrypt(message, key):
     return VigenereCypher(message, key)
-    
+
 def decrypt(message, key):
     return VigenereCypher(message, key, -1)
 
 
 # test cases
 # output results for ENCRYPTION
-print(f'Decrypted text: {text}')
+print(f'\nDecrypted text: {text}')
 print(f'(Secret Key: {secret_key})')
 print('_________________________')
 encryption = encrypt(text, secret_key)

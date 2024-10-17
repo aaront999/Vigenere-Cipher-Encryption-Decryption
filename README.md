@@ -19,10 +19,8 @@ Continue with the next letter of the plaintext, and the next letter of the key. 
 Please refer: https://pages.mtu.edu/~shene/NSF-4/Tutorial/VIG/Vig-Base.html
 
 #
-### Pro:
+### Source code available in main.py for detailed implementation
+![1](https://github.com/user-attachments/assets/bb2d76e2-7188-4a29-be62-8ac17f374ae0)
+![2](https://github.com/user-attachments/assets/56fe1a65-bb5c-4e98-b839-09bfb0844622)
+![3](https://github.com/user-attachments/assets/d2f9d8c8-b5db-4c8d-8693-1e1c6a447e29)
 
-The Vigenère cipher is a polyalphabetic substitution cipher that rotates through different shifts, so the same plaintext letter will not always be encrypted to the same ciphertext letter. It is also more complex and secure than the Caesar cipher.
-
-### Con:
-
-The primary weakness of the Vigenère cipher is the repeating nature of its key. 
